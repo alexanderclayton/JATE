@@ -25,8 +25,6 @@ warmStrategyCache({
   strategy: pageCache,
 });
 
-precacheAndRoute(self.__WB_MANIFEST);
-
 registerRoute(({ request }) => request.mode === 'navigate', pageCache);
 
 // TODO: Implement asset caching Not sure if this is correct...
