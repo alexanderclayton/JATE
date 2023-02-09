@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Just Another Text Editor",
   "main": "routes/server/server.js",
+  "engines": {
+    "node": "16.5.0"
+  },
   "scripts": {
     "test": "npm test",
     "server": "nodemon server.js --ignore client",
